@@ -1,0 +1,58 @@
+.weather-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    transition: background 1s ease-in-out;
+  }
+  
+  /* Clear Sky */
+  .clear-sky {
+    background: linear-gradient(to bottom, #ffcc33, #ff9900);
+  }
+  
+  /* Cloudy */
+  .cloudy {
+    background: linear-gradient(to bottom, #b0bec5, #78909c);
+  }
+  
+  /* Rainy */
+  .rainy {
+    background: linear-gradient(to bottom, #37474f, #263238);
+    animation: rainEffect 0.5s infinite linear;
+  }
+  
+  @keyframes rainEffect {
+    0%, 100% { background-position: 0% 0%; }
+    50% { background-position: 100% 100%; }
+  }
+  
+  /* Snowy */
+  .snowy {
+    background: linear-gradient(to bottom, #eceff1, #cfd8dc);
+    animation: snowEffect 1s infinite linear;
+  }
+  
+  @keyframes snowEffect {
+    0%, 100% { background-position: 0% 0%; }
+    50% { background-position: 100% 100%; }
+  }
+  
+  /* Thunderstorm */
+  .thunderstorm {
+    background: linear-gradient(to bottom, #212121, #000000);
+    animation: lightningEffect 3s infinite;
+  }
+  
+  @keyframes lightningEffect {
+    0%, 95%, 100% { background: #000000; }
+    96% { background: #ffffff; }
+  }
+  
+  /* Drizzle */
+  .drizzle {
+    background: linear-gradient(to bottom, #607d8b, #455a64);
+  }
+  
