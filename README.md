@@ -78,6 +78,5 @@ Designed and Developed by **Abishek Balraj**.
 
 ## Contact
 For any queries, contact:
-- 📞 9150313132
 - 📧 abishekar2000@gmail.com
 
