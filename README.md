@@ -57,6 +57,10 @@ weather-app/
 │── package.json
 │── README.md
 ```
+![Weather App Screenshot](ScreenShot/Screenshot 2025-03-10 at 7.12.03 PM.png)
+
+
+
 
 ## Usage
 1. Enter a city name in the search bar.
