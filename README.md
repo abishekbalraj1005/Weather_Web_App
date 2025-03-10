@@ -34,6 +34,9 @@ A simple weather application that provides real-time weather updates based on us
    npm start
    ```
 
+   ![Weather Web App Screenshot](https://raw.githubusercontent.com/abishekbalraj1005/Weather_Web_App/main/ScreenShot/1.png)
+
+
 ## Configuration
 
 1. Get your API key from [OpenWeatherMap](https://openweathermap.org/api).
