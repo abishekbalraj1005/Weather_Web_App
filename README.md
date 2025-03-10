@@ -33,7 +33,7 @@ A simple weather application that provides real-time weather updates based on us
    ```sh
    npm start
    ```
-##Screenshot
+## Screenshot
    ![Weather Web App Screenshot](https://github.com/abishekbalraj1005/Weather_Web_App/blob/2e04c657c221614c60eff33127cb7c2432f6f6af/Weather/1.png)
 
 
